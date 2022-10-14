@@ -1,4 +1,5 @@
 import { random, go, pick, list } from "./utils.ts"
+import { join } from "https://deno.land/std@0.159.0/path/mod.ts";
 
 // 1. Generate a random number as steps count
 // 2. Go to root
@@ -33,10 +34,12 @@ const main = () => {
     Deno.writeTextFileSync("secret.txt", "This is a secret message");
 
     // Append the path of the file in a file called "locations.txt" at save point
-    const currentState: string = Deno.readTextFileSync(saveLocation + "locations.txt");
+    const currentState: string = Deno.readTextFileSync(join(saveLocation, "locations.txt"));
     const newState: string = currentState + Deno.cwd() + "secret.txt" + "\n";
     Deno.writeTextFileSync(saveLocation + "locations.txt", newState);
 
     go("/"); // Go to root
   }
 }
+
+main();
