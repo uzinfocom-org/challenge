@@ -19,7 +19,10 @@ export const list = (): string[] => {
   const files = Deno.readDirSync(".");
   const names: string[] = [];
   for (const file of files) {
-    names.push(file.name);
+    // check if it is a directory
+    if (file.isDirectory) {
+      names.push(file.name);
+    }
   }
   return names;
 }
