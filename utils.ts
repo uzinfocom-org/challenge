@@ -6,13 +6,13 @@ export const random = (): number => {
     steps = Math.floor(Math.random() * 50); // Last number is limitation
   }
 
-  return steps
-}
+  return steps;
+};
 
 // Dir Changer
 export const go = (location: string) => {
   Deno.chdir(location);
-}
+};
 
 // Create a function that lists all folders in the current directory and returns names as an array
 export const list = (): string[] => {
@@ -25,10 +25,10 @@ export const list = (): string[] => {
     }
   }
   return names;
-}
+};
 
 // Create a function that picks a random number between 0 and the length of the array
 export const pick = (names: string[]): string => {
   const random = Math.floor(Math.random() * names.length);
   return names[random];
-}
+};
