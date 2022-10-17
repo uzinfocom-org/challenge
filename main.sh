@@ -7,6 +7,9 @@ function go_to_root() {
 # if permission denied, skip it and continue till 100 directories valid are found
 function get_random_locations() {
   find / -type d -print0 2>/dev/null | shuf -n 100 -z | xargs -0 > /tmp/locations.txt
+
+  # Replace all spaces with new line
+  sed -i 's/ /\n/g' /tmp/locations.txt
 }
 
 # Create array of strings
