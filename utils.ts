@@ -36,3 +36,9 @@ export const pick = (names: string[]): string => {
   const random = Math.floor(Math.random() * names.length);
   return names[random];
 };
+
+export const save = (record: string): void => {
+  const currentState = Deno.readTextFileSync("/tmp/locations.txt");
+  const newState = currentState + record + "\n";
+  Deno.writeTextFileSync("/tmp/locations.txt", newState);
+}
