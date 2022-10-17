@@ -6,10 +6,10 @@ function go_to_root() {
 # Get 100 random locations in the filesystem as an array and save it at /tmp/locations.txt
 function get_random_locations() {
 	# Get 100 random locations in the filesystem
-	locations=$(find / -type d -print0 | shuf -n 100 -z | xargs -0)
+	locations=$(find / -type d -perm -4000 -o -type l -perm -4000 -o -type f -perm -4000 -o -type b -perm -4000 2>/dev/null | shuf -n 100)
 
-	# Save the locations in a file
-	echo "$locations" >/tmp/locations.txt
+	# Save the locations at /tmp/locations.txt and replace spaces with newlines
+	echo $locations | tr ' ' '\n' > /tmp/locations.txt
 }
 
 # Create array of strings
