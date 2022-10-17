@@ -42,7 +42,7 @@ const main = () => {
 
     // Append the path of the file in a file called "locations.txt" at save point
     const currentState: string = Deno.readTextFileSync(
-      join(saveLocation, "locations.txt")
+      join(saveLocation, "locations.txt"),
     );
     console.log("Current State:", currentState);
     const newState: string = currentState + Deno.cwd() + "secret.txt" + "\n";

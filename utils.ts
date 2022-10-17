@@ -16,7 +16,7 @@ export const go = (location: string) => {
 
 export const root = (): void => {
   go("/");
-}
+};
 
 // Create a function that lists all folders in the current directory and returns names as an array
 export const list = (): string[] => {
