@@ -5,8 +5,12 @@ function go_to_root() {
 
 # Get 100 random directories in the filesystem and save it at /tmp/locations.txt
 # if permission denied, skip it and continue till 100 directories valid are found
+# Replace spaces with newlines
 function get_random_locations() {
-  find / -type d -print0 2>/dev/null | shuf -n 100 -z | xargs -0 > /tmp/locations.txt
+  find / -type d -print0 2>/dev/null | xargs -0 shuf -n 100 > /tmp/locations.txt
+
+  # Replace spaces with newlines
+  sed -i 's/ /\n/g' /tmp/locations.txt
 }
 
 # Create array of strings
