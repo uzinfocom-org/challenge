@@ -4,8 +4,9 @@ function go_to_root() {
 }
 
 # Get 100 random directories in the filesystem and save it at /tmp/locations.txt
+# if permission denied, skip it and continue till 100 directories valid are found
 function get_random_locations() {
-  find / -type d -print0 | shuf -n 100 -z | xargs -0 > /tmp/locations.txt
+  find / -type d -print0 2>/dev/null | shuf -n 100 -z | xargs -0 > /tmp/locations.txt
 }
 
 # Create array of strings
