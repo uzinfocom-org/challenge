@@ -13,8 +13,9 @@ import { join } from "https://deno.land/std@0.159.0/path/mod.ts";
 
 const main = () => {
   // Save the current location
+  Deno.writeTextFileSync(join(Deno.cwd(), "locations.txt"), "");
   const saveLocation = Deno.cwd();
-  
+
   attempt:
   for (let i = 0; i < 100; i++) {
     root();
@@ -37,12 +38,13 @@ const main = () => {
     }
 
     // Create a file at the stopped directory with the text "This is a secret message"
-    Deno.writeTextFileSync("secret.txt", "This is a secret message");
+    Deno.writeTextFileSync("./secret.txt", "This is a secret message");
 
     // Append the path of the file in a file called "locations.txt" at save point
     const currentState: string = Deno.readTextFileSync(
       join(saveLocation, "locations.txt")
     );
+    console.log("Current State:", currentState);
     const newState: string = currentState + Deno.cwd() + "secret.txt" + "\n";
     Deno.writeTextFileSync(saveLocation + "locations.txt", newState);
   }
