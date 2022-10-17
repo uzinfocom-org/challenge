@@ -14,8 +14,7 @@ import { join } from "https://deno.land/std@0.159.0/path/mod.ts";
 const main = () => {
   // Save the current location
   const saveLocation = Deno.cwd();
-
-
+  
   attempt:
   for (let i = 0; i < 100; i++) {
     root();
