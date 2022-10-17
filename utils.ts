@@ -14,6 +14,7 @@ export const go = (location: string) => {
   Deno.chdir(location);
 };
 
+// Go to root
 export const root = (): void => {
   go("/");
 };
@@ -37,6 +38,7 @@ export const pick = (names: string[]): string => {
   return names[random];
 };
 
+// Save the record to /tmp/locations.txt
 export const save = (record: string): void => {
   const currentState = Deno.readTextFileSync("/tmp/locations.txt");
   const newState = currentState + record + "\n";
