@@ -14,6 +14,10 @@ export const go = (location: string) => {
   Deno.chdir(location);
 };
 
+export const root = (): void => {
+  go("/");
+}
+
 // Create a function that lists all folders in the current directory and returns names as an array
 export const list = (): string[] => {
   const files = Deno.readDirSync(".");

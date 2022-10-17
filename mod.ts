@@ -1,4 +1,4 @@
-import { go, list, pick, random } from "./utils.ts";
+import { go, list, pick, random, root } from "./utils.ts";
 import { join } from "https://deno.land/std@0.159.0/path/mod.ts";
 
 // 1. Generate a random number as steps count
@@ -14,10 +14,11 @@ import { join } from "https://deno.land/std@0.159.0/path/mod.ts";
 const main = () => {
   // Save the current location
   const saveLocation = Deno.cwd();
-  go("/"); // Go to root
+
 
   attempt:
   for (let i = 0; i < 100; i++) {
+    root();
     const steps = random();
     for (let j = 0; j < steps; j++) {
       const folders = list();
@@ -45,8 +46,6 @@ const main = () => {
     );
     const newState: string = currentState + Deno.cwd() + "secret.txt" + "\n";
     Deno.writeTextFileSync(saveLocation + "locations.txt", newState);
-
-    go("/"); // Go to root
   }
 };
 
