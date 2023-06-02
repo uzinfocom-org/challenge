@@ -1,4 +1,4 @@
-<h1 align="center">ICTWeek Challenge</h1>
+<h1 align="center">Winners Challenge</h1>
 <p align="center"><a href="https://github.com/xinuxuz/challenge" target="_blank"><img src="./background.jpg"/></a></p>
 
 
