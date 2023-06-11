@@ -2,9 +2,14 @@
 <p align="center"><a href="https://github.com/xinuxuz/challenge" target="_blank"><img src="./background.jpg"/></a></p>
 
 
-**ICT Week katta tadbiri uchun yaratilgan tanlov va musobaqa. Sistemadan kerakli fayllarni topish musobaqasi.**
+**Intervyuga chaqirilgan nomzodlar uchun chellenjlar!**
 
-## Qismlar
+## Yo'nalishlar
 
-1. Generator - Ushbu fayllarni yaratish generator skriptini ishga tushurib fayllarni yaratib olish lozim
-2. Qt da yasalgan timer - timerni ham o'rnatib olish kerak
+- Web sfera
+- Software Engineering
+
+### Web Yo'nalish
+
+Ushbu yo'nalishda siz shu paytgacha o'rgangan bilimlaringizdan va izlanish qobiliyatingizdan foydalangan holda web servislar yaratishingiz kerak bo'ladi.
+ChatGPT yoki shunga o'xshash AI generatorlardan tayyor kod olishingiz qat'iyan ma'n etiladi va biz bu narsalar ishlatib ko'rganmiz... +/- farqlay olamiz generated code bilan qo'lda yozilgan code qanaqa bo'lishini.
