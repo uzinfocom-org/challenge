@@ -37,4 +37,4 @@ turgan holda widgetlar yordamida ro'yxat shaklida ko'rsatishi kerak bo'ladi. Ilt
 - https://doc.qt.io
 - https://doc.qt.io/qt-6/json.html
 
-<p align="center"><b>Ushbu berilgan topshiriqlardan birini bajarib bo'lgach, o'z GitHub profilingizga loyihalarni yuklab biz bilan bo'lishing!</b></p>
+<p align="center"><b>Ushbu berilgan topshiriqlardan birini bajarib bo'lgach, o'z GitHub profilingizga loyihalarni yuklab biz bilan [bizning disskussiyamizda](https://github.com/uzinfocom-org/challenge/discussions) bo'lishing!</b></p>
