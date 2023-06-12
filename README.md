@@ -1,21 +1,20 @@
 <h1 align="center">Job Challenge</h1>
 <p align="center"><img src="./challenge.png"/></p>
 
-**Ushbu topshiriqlar yarmadagi intervyuda go'lib bo'lgan va saralab olingan nomzodlar uchun topshiriqlar. Ushbu topshiriqlar bu ishga olinayotganlar uchun eng oxirgi bosqich hisoblanib, ishga olinish olinmasligi shu topshiriqning natijasidan bog'liqdir.**
+**Ushbu topshiriqlar yarkamarkada intervyuda go'lib bo'lgan va saralab olingan nomzodlar uchun tayyorlangan. Topshiriqlar ishga olish jarayoni uchun oxirgi bosqich hisoblanadi. Ya'ni nomzodning ishga olinish yoki olinmasligi topshiriq natijalariga bog'liq.**
 
-> Agar siz ushbu topshiriq Rus tili o'qimoqchi bo'lsangiz, [shu URL](./README_RU.md) dan topishingiz mumkin.
+> Topshiriqlarni rus tilida o'qish uchun quyidagi [havolaga](./README_RU.md) o'ting.
 
 ## Yo'nalishlar
 
-- Web sfera
-- Software Engineering
+- Veb dasturlash
+- Dasturiy ta'minot muhandisligi
 
-## Ogohlantirish
+## Eslatma
 
-Siz shu paytgacha o'rgangan bilimlaringizdan va izlanish qobiliyatingizdan foydalangan holda web servislar yaratishingiz kerak bo'ladi.
-ChatGPT yoki shunga o'xshash AI generatorlardan tayyor kod olishingiz qat'iyan ma'n etiladi va biz bu narsalar ishlatib ko'rganmiz... +/- farqlay olamiz generated code bilan qo'lda yozilgan code qanaqa bo'lishini.
+Topshiriqlarni bajarish davomida yordamchi ChatBOT'lardan (ChatGPT, Bing) foydalanish taqiqlanadi. Yechimni o'z bilimlaringizga tayangan holda yechishingiz lozim. Qanchalik rasvo yechim bo'lmasin, o'zingiz yozgan kodlar sizga yaxshiroq natija olib kelish ehtimolini oshiradi.
 
-### Web Yo'nalish
+### Veb dasturlash
 
 Ushbu yo'nalishda siz API servis yaratishingiz kerak bo'ladi. Bu narsani istagan usulingizda bajarishingiz mumkin. Xohlang C++ std yordamida hech qanday
 frameworklarsiz, xohlang frameworklar bilan birga tekis shunday. Esda tutingki, frameworklarsiz qilingan ish judayam katta baholanib sizga yanada ko'proq kirish uchun imkoniyat yaratib beradi. Lekin bu degani qo'lda qilingan ammo stabil bo'lmagan dastur ham shular sirasiga o'tib ketadi degani emas =) Siz yaratgan API servis DB bilan bog'langan holda (xohlagan DB adapter, xohlang SQL, NoSQL) unga hamma CRUD operatsiyalarini asosiy request turlari hisoblanmish GET, POST, PUT, DELETE orqali amalga oshirishi lozim. Agar autentifikatsiya ham bo'lsa nur ustiga a'lo!
