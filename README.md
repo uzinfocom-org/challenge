@@ -16,8 +16,11 @@ Topshiriqlarni bajarish davomida yordamchi ChatBOT'lardan (ChatGPT, Bing) foydal
 
 ### Veb dasturlash
 
-Ushbu yo'nalishda siz API servis yaratishingiz kerak bo'ladi. Bu narsani istagan usulingizda bajarishingiz mumkin. Xohlang C++ std yordamida hech qanday
-frameworklarsiz, xohlang frameworklar bilan birga tekis shunday. Esda tutingki, frameworklarsiz qilingan ish judayam katta baholanib sizga yanada ko'proq kirish uchun imkoniyat yaratib beradi. Lekin bu degani qo'lda qilingan ammo stabil bo'lmagan dastur ham shular sirasiga o'tib ketadi degani emas =) Siz yaratgan API servis DB bilan bog'langan holda (xohlagan DB adapter, xohlang SQL, NoSQL) unga hamma CRUD operatsiyalarini asosiy request turlari hisoblanmish GET, POST, PUT, DELETE orqali amalga oshirishi lozim. Agar autentifikatsiya ham bo'lsa nur ustiga a'lo!
+Ushbu yo'nalishda sizdan hech qanday frameworklarsiz API servisi uchun MVC yasash talab qilinadi. Bunga ko'ra servisdagi vazifalar alohida modellarga bo'lishi va controllerlar orqali routerlarga asoslanib endpointlar boshqarilishi lozim.
+
+Shuningdek servis uchun ma'lumotlar bazasi bilan ishlay olish imkoni ham talab etiladi. Ma'lumotlar bazasi adaptori sifatida esa o'zingizga qulay bo'lgan texnologiyalardan foydalanishingiz mumkin.
+
+Routerlarda GET, POST, PUT, DELETE so'rovlarni alohida ishlata olish va avtorizatsiyalar qo'shilda nur ustiga a'lon nur bo'ladi.
 
 **Yordamchi resurslar:**
 
@@ -26,14 +29,13 @@ frameworklarsiz, xohlang frameworklar bilan birga tekis shunday. Esda tutingki, 
 - https://oatpp.io/docs/start/
 - https://github.com/cutelyst/cutelyst/wiki
 
-## Software Engineering
+## Dasturiy ta'minot muhandisligi
 
-Desktop platformalarida grafik interfeys yaratish uchun C++ keng tarqalgan framework hisoblanmish "Qt++" freymvorkida biron dastur yarating. Ushbu yaratilgan dastur istalgan API ishlatib turib, undagi informatsiyalarni o'qib
-turgan holda widgetlar yordamida ro'yxat shaklida ko'rsatishi kerak bo'ladi. Iltimos, ishingizga sovuqqon bo'lmang, ozgina dizayn va boshqa qo'shimchalar bilan to'ldiring!
+Desktop platformalari uchun QtC++ frameworkidan foydalangan holda biror dastur yarating. Asosiy navbatda dastur multiplatform uchun javob bersin, ya'ni bir vaqtning o'zida windows, linux va macos apilaridan foydalansin. Shuningdek tarmoqga ulana olsa va yuqoridagi veb dastur bilan integratsiya qilinsa siz uchun yanada foydali baho olib kelishi mumkin.
 
 **Yordamchi resurslar:**
 
 - https://doc.qt.io
 - https://doc.qt.io/qt-6/json.html
 
-<p align="center"><b>Ushbu berilgan topshiriqlardan birini bajarib bo'lgach, o'z GitHub profilingizga loyihalarni yuklab biz bilan <a href="https://github.com/uzinfocom-org/challenge/discussions">bizning disskussiyamizda</a> bo'lishing!</b></p>
+<p align="center"><b>Ushbu berilgan topshiriqlarni bajarib bo'lgach, o'z GitHub profilingizga loyihalarni yuklab bizning <a href="https://github.com/uzinfocom-org/challenge/discussions">github sahifamiz</a>da bo'lishishingiz mumkin!</b></p>
