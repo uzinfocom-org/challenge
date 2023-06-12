@@ -1,7 +1,7 @@
 <h1 align="center">Job Challenge</h1>
 <p align="center"><img src="./challenge.png"/></p>
 
-**Ushbu topshiriqlar yarkamarkada intervyuda go'lib bo'lgan va saralab olingan nomzodlar uchun tayyorlangan. Topshiriqlar ishga olish jarayoni uchun oxirgi bosqich hisoblanadi. Ya'ni nomzodning ishga olinish yoki olinmasligi topshiriq natijalariga bog'liq.**
+**Ushbu topshiriqlar yarkamarkada intervyuda g'o'lib bo'lgan va saralab olingan nomzodlar uchun tayyorlangan. Topshiriqlar ishga olish jarayoni uchun oxirgi bosqich hisoblanadi. Ya'ni nomzodning ishga olinish yoki olinmasligi topshiriq natijalariga bog'liq.**
 
 > Topshiriqlarni rus tilida o'qish uchun quyidagi [havolaga](./README_RU.md) o'ting.
 
