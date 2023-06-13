@@ -34,6 +34,13 @@ Routerlarda GET, POST, PUT, DELETE so'rovlarni alohida ishlata olish va avtoriza
 
 Desktop platformalari uchun QtC++ frameworkidan foydalangan holda biror dastur yarating. Asosiy navbatda dastur multiplatform uchun javob bersin, ya'ni bir vaqtning o'zida windows, linux va macos apilaridan foydalansin. Shuningdek tarmoqga ulana olsa va yuqoridagi veb dastur bilan integratsiya qilinsa siz uchun yanada foydali baho olib kelishi mumkin.
 
+**Yordamchi resurslar:**
+
+- https://doc.qt.io
+- https://doc.qt.io/qt-6/json.html
+
+<p align="center"><b>Ushbu berilgan topshiriqlarni bajarib bo'lgach, o'z GitHub profilingizga loyihalarni yuklab bizning <a href="https://github.com/uzinfocom-org/challenge/discussions">github sahifamiz</a>da bo'lishishingiz mumkin!</b></p>
+
 ## Tarmoqlar
 
 Lokal tarmoq doirasida rel vaqtda ishlaydigan xabar almashini dasturini yozing. Dasturda server va mijoz qismlari bo'lsin. Shuningdek dastur tuzish uchun frameworklardan foydalanmagan holda faqatgina winsock2.h, sys/socket.h tizim apilaridan foydalanish lozim. Ilovani grafik yoki konsol rejimida tayyorlash va istalgan operatsion tizimdan foydalanish mumkin. 
@@ -58,10 +65,3 @@ Malumot ma'lumotlari:
 https://www.binarytides.com/socket-programming-c-linux-tutorial/
 
 https://www.binarytides.com/winsock-socket-programming-tutorial/
-
-**Yordamchi resurslar:**
-
-- https://doc.qt.io
-- https://doc.qt.io/qt-6/json.html
-
-<p align="center"><b>Ushbu berilgan topshiriqlarni bajarib bo'lgach, o'z GitHub profilingizga loyihalarni yuklab bizning <a href="https://github.com/uzinfocom-org/challenge/discussions">github sahifamiz</a>da bo'lishishingiz mumkin!</b></p>
