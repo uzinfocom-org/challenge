@@ -9,6 +9,7 @@
 
 - Veb dasturlash
 - Dasturiy ta'minot muhandisligi
+- Tarmoqlar
 
 ## Eslatma
 
@@ -32,6 +33,30 @@ Routerlarda GET, POST, PUT, DELETE so'rovlarni alohida ishlata olish va avtoriza
 ## Dasturiy ta'minot muhandisligi
 
 Desktop platformalari uchun QtC++ frameworkidan foydalangan holda biror dastur yarating. Asosiy navbatda dastur multiplatform uchun javob bersin, ya'ni bir vaqtning o'zida windows, linux va macos apilaridan foydalansin. Shuningdek tarmoqga ulana olsa va yuqoridagi veb dastur bilan integratsiya qilinsa siz uchun yanada foydali baho olib kelishi mumkin.
+
+## Tarmoqlar
+
+Lokal tarmoq doirasida rel vaqtda ishlaydigan xabar almashini dasturini yozing. Dasturda server va mijoz qismlari bo'lsin. Shuningdek dastur tuzish uchun frameworklardan foydalanmagan holda faqatgina winsock2.h, sys/socket.h tizim apilaridan foydalanish lozim. Ilovani grafik yoki konsol rejimida tayyorlash va istalgan operatsion tizimdan foydalanish mumkin. 
+
+Server uchun qo'yiladigan talablar: 
+
+- Server qismi TCP/IP protokoli yordamida bir nechta mijozlardan ulanishlarni qabul qilishi kerak;
+- Real vaqt rejimida ekranda barcha ulangan mijozlarning IP manzillari ro'yxatini ko'rsatish;
+- Bitta mijozdan kelgan xabarlar barcha ulangan mijozlarga yuborilishi kerak.
+
+Mijoz qismi uchun qo'yiladigan talablar:
+
+- TCP/IP protokoli orqali serverga ulanish;
+- Matnli xabarlarni yuborish, qabul qilish va ko‘rsatish.
+
+Qo'shimcha ravishda:
+
+Har qanday qo'shimcha funksiyalar, masalan, grafik interfeysning mavjudligi, foydalanuvchi avtorizatsiyasi, ma'lumotlar bazasida xabarlar jurnalini saqlash, shifrlashdan foydalanish va boshqalar. Dasturchining ixtiyoriga ko'ra amalga oshirilishi mumkin va test punkti natijalarini ko'rib chiqishda qo'shimcha baholanishga sabab bo'ladi.
+
+Malumot ma'lumotlari:
+
+https://www.binarytides.com/socket-programming-c-linux-tutorial/
+https://www.binarytides.com/winsock-socket-programming-tutorial/
 
 **Yordamchi resurslar:**
 
