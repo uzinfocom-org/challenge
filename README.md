@@ -56,6 +56,7 @@ Har qanday qo'shimcha funksiyalar, masalan, grafik interfeysning mavjudligi, foy
 Malumot ma'lumotlari:
 
 https://www.binarytides.com/socket-programming-c-linux-tutorial/
+
 https://www.binarytides.com/winsock-socket-programming-tutorial/
 
 **Yordamchi resurslar:**
