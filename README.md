@@ -11,6 +11,9 @@
 - Dasturiy ta'minot muhandisligi
 - Tarmoqlar
 
+## Topshiriqlarni tugatish muddati
+Topshiriq yuklangan github repositoriyasi havolasi 20-iyun 23:59ga qadar Uzinfocom <a href="https://github.com/uzinfocom-org/challenge/discussions">Github muhokama</a>sining General bo'limiga joylanishi kerak.
+
 ## Eslatma
 
 Topshiriqlarni bajarish davomida yordamchi ChatBOT'lardan (ChatGPT, Bing) foydalanish taqiqlanadi. Yechimni o'z bilimlaringizga tayangan holda yechishingiz lozim. Qanchalik rasvo yechim bo'lmasin, o'zingiz yozgan kodlar sizga yaxshiroq natija olib kelish ehtimolini oshiradi.
@@ -39,8 +42,6 @@ Desktop platformalari uchun QtC++ frameworkidan foydalangan holda biror dastur y
 - https://doc.qt.io
 - https://doc.qt.io/qt-6/json.html
 
-<p align="center"><b>Ushbu berilgan topshiriqlarni bajarib bo'lgach, o'z GitHub profilingizga loyihalarni yuklab bizning <a href="https://github.com/uzinfocom-org/challenge/discussions">github sahifamiz</a>da bo'lishishingiz mumkin!</b></p>
-
 ## Tarmoqlar
 
 Lokal tarmoq doirasida rel vaqtda ishlaydigan xabar almashini dasturini yozing. Dasturda server va mijoz qismlari bo'lsin. Shuningdek dastur tuzish uchun frameworklardan foydalanmagan holda faqatgina winsock2.h, sys/socket.h tizim apilaridan foydalanish lozim. Ilovani grafik yoki konsol rejimida tayyorlash va istalgan operatsion tizimdan foydalanish mumkin. 
@@ -65,3 +66,5 @@ Malumot ma'lumotlari:
 https://www.binarytides.com/socket-programming-c-linux-tutorial/
 
 https://www.binarytides.com/winsock-socket-programming-tutorial/
+
+<p align="center"><b>Ushbu berilgan topshiriqlarni bajarib bo'lgach, o'z GitHub profilingizga loyihalarni yuklab bizning <a href="https://github.com/uzinfocom-org/challenge/discussions">github sahifamiz</a>da bo'lishishingiz mumkin!</b></p>
